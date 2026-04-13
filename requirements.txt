@@ -1,0 +1,22 @@
+# Core data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine learning & statistical tests
+scikit-learn>=1.3.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# For reading Excel files (if needed)
+openpyxl>=3.1.0
+
+# For Jupyter notebook / kernel (optional)
+ipykernel>=6.25.0
+
+
+# For environment variables (if you use .env files)
+python-dotenv>=1.0.0
