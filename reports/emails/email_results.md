@@ -150,63 +150,63 @@ These are all stored as **1 (yes, this applies)** or **0 (no, it doesn't)**.
 Customers whose membership payment is overdue might be more likely to leave.
 A grouped bar chart was used to visualise the count of Won vs. Churned outcomes across overdue categories.
 **Business implication:** These customers should be contacted early with payment support conversations.
-
+Conclusion: Reject H₀ — significant association found.
 ---
 
 #### Hypothesis 2 — Customer Complained → More Churn
 Customers who made a complaint during email interactions might be more likely to churn.
 A normalised stacked bar chart was used to show the *proportion* of churn within each complaint group.
 **Business implication:** Complaints should trigger an immediate retention workflow.
-
+Reject H₀ — significant association found.
 ---
 
 #### Hypothesis 3 — Accreditation Delays → More Churn
 Contractors who had delays or problems with their accreditation might be more likely to not renew.
 A heatmap was used to show the joint distribution of delays and outcomes.
 **Business implication:** Contractors stuck in the accreditation process need proactive support to stay on track.
-
+Reject H₀ — significant association found.
 ---
 
 #### Hypothesis 4 — Low Contractor Engagement → More Churn
 Contractors who seem disengaged or have suggested they might leave are likely to churn.
 Side-by-side pie charts were used to compare the churn rate between engaged and disengaged groups.
 **Business implication:** Disengaged contractors need re-engagement outreach before their renewal date.
-
+Reject H₀ — significant association found.
 ---
 
 #### Hypothesis 5 — Support Dissatisfaction → More Churn
 Customers who reported any negative experience, financial hardship, or dissatisfaction with support are more likely to leave.
 A diverging bar chart was used to show the difference in churn proportion between satisfied and dissatisfied groups.
 **Business implication:** These customers should be escalated to senior retention agents.
-
+Reject H₀ — significant association found.
 ---
 
 #### Hypothesis 6 — Time to Renewal → Association with Churn
 Whether a customer is contacted early or late relative to their renewal date may affect the outcome.
 A line chart was used to trace how the churn and win rates change across different time-to-renewal windows.
 **Business implication:** Knowing the riskiest time windows lets the team prioritise when to reach out.
-
+Reject H₀ — significant association found.
 ---
 
 #### Hypothesis 7 — Competitors Mentioned → More Churn
 Customers who mentioned competitors in their emails might be comparing options and considering leaving.
 A grouped proportion bar chart was used to compare churn rates across competitor-mention categories.
 **Business implication:** Customers who mention competitors should receive a targeted response highlighting value.
-
+Reject H₀ — significant association found.
 ---
 
 #### Hypothesis 8 — Payment Concerns → More Churn
 Customers who showed reluctance around paying or who were unhappy with the renewal price are more likely to churn.
 Donut charts were used to compare the outcome composition between customers with and without payment concerns.
 **Business implication:** Offer payment plans or early discounts to customers flagged with payment concerns.
-
+Reject H₀ — significant association found.
 ---
 
 #### Hypothesis 9 — Agent Chase Flag → More Churn
 Customers who required the agent to follow up more than twice may be disengaged and heading towards non-renewal.
 A horizontal stacked bar chart was used to show the outcome proportion for customers with and without the chase flag.
 **Business implication:** Route accounts requiring heavy chasing to specialist retention agents earlier.
-
+Conclusion: Fail to reject H₀.
 ---
 
 ### Cramer's V Correlation Heatmap
