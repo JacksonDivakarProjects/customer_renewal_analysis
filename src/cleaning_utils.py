@@ -39,8 +39,8 @@ def clean_yes_no_column(df, column_name, new_column_name=None, inplace=False):
     def _clean_single(value):
         # Convert to string, remove markdown bold, brackets, and strip
         s = str(value)
-        s = re.sub(r'\*\*', '', s)       # remove **
-        s = re.sub(r'[\[\]]', '', s)     # remove [ and ]
+        s = re.sub(r'\*\*', '', s)       
+        s = re.sub(r'[\[\]]', '', s)    
         s = s.strip().lower()
 
 
